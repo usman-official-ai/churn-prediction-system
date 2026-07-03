@@ -1,0 +1,52 @@
+# Python 
+__pycache__/ 
+*.py[cod] 
+*$py.class 
+*.so 
+.Python 
+venv/ 
+env/ 
+ENV/ 
+.venv 
+ 
+# IDE 
+.vscode/ 
+.idea/ 
+*.swp 
+*.swo 
+ 
+# Data - IGNORE ALL DATA 
+data/ 
+*.csv 
+*.xlsx 
+*.parquet 
+*.feather 
+!data/.gitkeep 
+!data/raw/.gitkeep 
+!data/processed/.gitkeep 
+ 
+# Models - IGNORE ALL MODELS 
+models/*.pkl 
+models/*.joblib 
+models/*.h5 
+!models/.gitkeep 
+ 
+# Logs 
+logs/ 
+*.log 
+ 
+# MLflow 
+mlruns/ 
+mlflow.db 
+ 
+# Jupyter 
+.ipynb_checkpoints/ 
+*.ipynb 
+ 
+# Environment 
+.env 
+.env.local 
+.env.*.local 
+ 
+# Git LFS 
+*.lfs 
